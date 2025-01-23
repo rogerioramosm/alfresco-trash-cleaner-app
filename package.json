@@ -7,7 +7,7 @@
     "dev": "node --watch --env-file=.env index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Rogério Ramos Maldonado",
+  "license": "MIT",
+  "description": "Alfresco APP - Aplicativo simples para limpar a lixeira em massa do Alfresco."
 }
