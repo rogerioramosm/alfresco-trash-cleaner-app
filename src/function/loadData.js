@@ -11,16 +11,16 @@ export async function loadData(skipCount, maxItems) {
 
     const json = await result.json();
     if (!json.list) {
-      console.error("Erro ao retornar resultados!");
+      console.error("Erro ao retornar resultados ou Servidor ocupado!");
       return false;
     }
-    
+
     return {
       totalItems: json.list.pagination.totalItems,
       files: json.list.entries
     }
   } catch (error) {
-    console.error("Erro ao tentar carregar arquivos: "+error)
+    console.error("Erro ao tentar carregar arquivos: " + error)
     return false;
   }
 }
