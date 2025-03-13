@@ -38,3 +38,5 @@ while (totalFilesToDelete > 0) {
     }
   }
 }
+
+console.log("Nenhum arquivo para deletar!");
