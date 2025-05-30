@@ -9,5 +9,13 @@
   "keywords": [],
   "author": "Rogério Ramos Maldonado",
   "license": "MIT",
-  "description": "Alfresco APP - Aplicativo simples para limpar a lixeira em massa do Alfresco."
+  "description": "Alfresco APP - Aplicativo simples para limpar a lixeira em massa do Alfresco.",
+  "devDependencies": {
+    "@types/node": "^22.15.24",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "24": "^0.0.0",
+    "dotenv": "^16.5.0"
+  }
 }
